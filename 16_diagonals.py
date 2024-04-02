@@ -1,3 +1,4 @@
+# noqa
 """
 algorithm that solves the 16 diagonals problem. there is a board with five rows and 5 columns with a total of 25 cells.
 The goal is to place 16 diagonal lines that go from the corner of a cell to the opposite corner.  But the edges of these
