@@ -1,6 +1,7 @@
 """
-function so
+function that finds the transpositions necessary to reach a permutation from the starting list.
 """
+
 
 def transform(first, second):
     assert len(first) == len(second)
