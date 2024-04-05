@@ -13,15 +13,18 @@ def convert(transposition):
 
 def transform(first: str, second: str) -> None:
     trans = [x for x in first]
-    for i, char in enumerate(trans):
+    moves = []
+    for i, char in enumerate(second):
         if char == trans[i]:
             continue
         else:
             idx = trans.index(char)
-            for a, b in convert(i, idx):
-                pass
+            for a, b in convert((i, idx)):
+                moves.append((a,b))
+                trans[a], trans[b] = trans[b], trans[a]
+    print(moves)
+    print(''.join(trans))
 
 
 if __name__ == '__main__':
-    print(convert((2, 5)))
     transform('MARINE', 'AIRMEN')
