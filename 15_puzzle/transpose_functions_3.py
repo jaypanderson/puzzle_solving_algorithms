@@ -12,7 +12,14 @@ def convert(transposition):
 
 
 def transform(first: str, second: str) -> None:
-    pass
+    trans = [x for x in first]
+    for i, char in enumerate(trans):
+        if char == trans[i]:
+            continue
+        else:
+            idx = trans.index(char)
+            for a, b in convert(i, idx):
+                pass
 
 
 if __name__ == '__main__':
