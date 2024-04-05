@@ -1,3 +1,9 @@
+"""
+function to create a different permutation from the starting one to a specific one using
+transpositions.
+"""
+
+
 def apply(lst, trans):
     first, second = trans
     lst[first], lst[second] = lst[second], lst[first]

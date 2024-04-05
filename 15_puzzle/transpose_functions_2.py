@@ -1,3 +1,7 @@
+"""
+function so
+"""
+
 def transform(first, second):
     assert len(first) == len(second)
     n = len(first)
