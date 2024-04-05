@@ -1,3 +1,11 @@
+"""
+a function that intakes two strings and converts the first string to the second string only using neighbor
+transpositions.  it prints out the final result and then the index of the neighbor transpositions taking place.
+(neighbor transpositions are when the values of two locations are swapped between two adjacent indexes. that is the
+index must only be a difference of one between the two indexes.)
+"""
+
+
 def convert(transposition):
     """
     converts a normal transposition into a series of neighbor transpositions
