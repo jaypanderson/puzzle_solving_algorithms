@@ -1,6 +1,7 @@
 """
-returns a list of three cycle transposes that are need to reach the second list from the first list.
+Returns a list of three cycle transpositions that are need to reach the second list starting from the first list.
 """
+
 
 def transform_by_3_cycles(first, second):
     assert len(first) == len(second)

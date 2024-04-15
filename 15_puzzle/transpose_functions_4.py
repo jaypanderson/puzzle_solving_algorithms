@@ -1,7 +1,8 @@
 """
-calculates if a permutation is even or odd. that is if if the numbers of transposes needed to reach the permutation
+calculates if a permutation is even or odd. that is if the numbers of transposes needed to reach the permutation
 is even or odd. it assumes the numbers are sequential and there is no missing gaps ie something like [1,4,5,6,7]
 """
+
 
 def odd_or_even(start, end, perm) -> None:
     original = [x for x in range(start, end)]
