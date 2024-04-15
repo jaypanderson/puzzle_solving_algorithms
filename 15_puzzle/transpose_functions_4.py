@@ -18,6 +18,7 @@ def odd_or_even(start, end, perm) -> None:
         print('Odd')
 
 
+# this one uses cycles so it is O(n) and is linear time complexity
 def new_odd_or_even(perm, index=1) -> None:
     n = len(perm)
     visited = [False] * n
