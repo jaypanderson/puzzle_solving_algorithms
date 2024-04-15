@@ -40,13 +40,5 @@ def new_odd_or_even(perm, index=1) -> None:
         print('Odd')
 
 
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
     new_odd_or_even([2, 1, 0, 4, 3], 0)  #[2 ,1, 0, 4, 3], [3, 2, 1, 5, 4]
