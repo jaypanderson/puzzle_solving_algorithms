@@ -9,9 +9,23 @@ def odd_or_even(start, end, perm) -> None:
     swaps = 0
     for i in range(len(perm)):
         if perm[i] != original[i]:
-            idx = original.index(perm[i])
+            idx = perm.index(original[i])
             perm[i], perm[idx] = perm[idx], perm[i]
             swaps += 1
+    if swaps % 2 == 0:
+        print('Even')
+    else:
+        print('Odd')
+
+# fixed vcersion. This one is to make sure its even or odd in neighbor transpositions.
+def test_odd_or_even(start, end, perm) -> None:
+    original = [x for x in range(start, end)]
+    swaps = 0
+    for i in range(len(perm)):
+        if perm[i] != i:
+            idx = perm.index(i)
+            perm.insert(i, perm.pop(idx))
+            swaps += idx - i
     if swaps % 2 == 0:
         print('Even')
     else:
@@ -43,4 +57,6 @@ def new_odd_or_even(perm, index=1) -> None:
 
 
 if __name__ == '__main__':
-    new_odd_or_even([2, 1, 0, 4, 3], 0)  #[2 ,1, 0, 4, 3], [3, 2, 1, 5, 4]
+    test_odd_or_even(0, 9, [6, 3, 0, 5, 7, 8, 2, 4, 1])
+    odd_or_even(0, 10, [6, 3, 0, 5, 7, 8, 2, 4, 1])
+    #new_odd_or_even([2, 1, 0, 4, 3], 0)  #[2 ,1, 0, 4, 3], [3, 2, 1, 5, 4]
