@@ -1,3 +1,7 @@
+"""
+algorithm that finds the greatest common devisor between two numbers(gcd)
+"""
+
 def gcd(a:int, b:int) -> int:
     if a < 0 or b < 0:
         print("must be positive numbers")
