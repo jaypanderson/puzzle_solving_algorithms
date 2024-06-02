@@ -19,7 +19,7 @@ def gcd_brute_force(a:int, b:int) -> int:
         if a % num == 0 and b % num == 0:
             return num
 
-def gcd(a:int, b:int) -> int:
+def gcd_subtract(a:int, b:int) -> int:
     """
     a better method that avoids a large amount of calculations.
     :param a:
@@ -28,6 +28,7 @@ def gcd(a:int, b:int) -> int:
     """
 
     while a > 0 and b > 0:
+        print(a, b)
         if a >= b:
             a -= b
         else:
@@ -35,7 +36,29 @@ def gcd(a:int, b:int) -> int:
     return max(a, b)
 
 
+def gcd(a:int, b:int) -> int:
+    """
+    an improvement over the previous one using modulo.
+    :param a:
+    :param b:
+    :return:
+    """
+    while a > 0 and b > 0:
+        if a >= b:
+            a %= b
+        else:
+            b %= a
+    return max(a, b)
+
 if __name__ == '__main__':
+#
+# Examples that can be used
+# (69620001, 1044300000)
+# (790933790548, 7) this is extremely slow with the first two functions.
+#
+
     start = time.time()
-    print(gcd(69620001, 1044300000))
+    for i in range(10):
+        print(gcd(69620001, 1044300000))
     print(time.time() - start)
+
