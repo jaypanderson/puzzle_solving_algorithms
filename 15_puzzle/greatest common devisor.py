@@ -54,6 +54,31 @@ def gcd(a:int, b:int) -> int:
 def gcd_recursive(a:int, b:int) -> int:
     return gcd_recursive(b, a%b) if b > 0 else a
 
+
+def extended_gcd(a, b):
+    """
+    this is the entended Euclidian algorithm that calculates the greatest common devisor as well as numbers x and y
+    called the certificate that are mutipliers that can be used to mutiple the original numbers that will give the gcd.
+    ex a = 391, b = 299  certiciate -> x = -3, y = 4
+    if we calculate the gcd then we get 23 which is equal to 391(-3) + 299(4) = -1173 + 1196 = 23
+    :param a:
+    :param b:
+    :return:
+    """
+    assert a >= b and b >= 0 and a + b > 0
+
+    if b == 0:
+        d, x, y = a, 1, 0
+    else:
+        (d, p, q) = extended_gcd(b, a % b)
+        x = q
+        y = p - q * (a // b)
+
+    assert a % d == 0 and b % d == 0
+    assert d == a * x + b * y
+    return (d, x, y)
+
+
 if __name__ == '__main__':
 #
 # Examples that can be used
@@ -67,5 +92,7 @@ if __name__ == '__main__':
     #     print(gcd(74849302198574637289038758439302193847583958734903028494857483910394758271849503298765212098754125698, 5469578565231556458595458652545856957542568547932654789652312524569899889653624759658745895854785))
     # print(time.time() - start)
 
-    print(gcd_recursive(48, 64))
+    # print(gcd_recursive(48, 64))
+
+    print(extended_gcd(391, 299))
 
