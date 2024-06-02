@@ -13,10 +13,11 @@ def lmc_brute_force(a:int, b:int) -> int:
     :return:
     """
     for d in range(1, a*b+1):
-        if d % == 0 and d % b == 0:
+        if d % a == 0 and d % b == 0:
             return d
 
 
 
 if __name__ == '__main__':
+    print(lmc_brute_force(24, 16))
     pass
