@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5638c7b3-0fba-4968-89dd-b58709f8cd06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithms/least common multiple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_puzzle/greatest common devisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/15_puzzle/greatest common devisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_puzzle/greatest common devisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/greatest common devisor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,8 @@
     "Python.test.executor": "Debug",
     "Python.transpose_functions_3.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Ryan/PycharmProjects/puzzle_solving_algorithms/algorithms"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -49,6 +51,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\PycharmProjects\puzzle_solving_algorithms\algorithms" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="puzzle_solving_algorithms" />
@@ -130,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_puzzle/greatest common devisor.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ryan\PycharmProjects\puzzle_solving_algorithms\algorithms\greatest common devisor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
