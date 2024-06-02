@@ -44,6 +44,7 @@ def gcd(a:int, b:int) -> int:
     :return:
     """
     while a > 0 and b > 0:
+        print(a, b)
         if a >= b:
             a %= b
         else:
@@ -55,10 +56,11 @@ if __name__ == '__main__':
 # Examples that can be used
 # (69620001, 1044300000)
 # (790933790548, 7) this is extremely slow with the first two functions.
+# (79093379054, 1849639579327)
 #
 
     start = time.time()
-    for i in range(10):
-        print(gcd(69620001, 1044300000))
+    for i in range(1):
+        print(gcd(79093379054, 1849639579327))
     print(time.time() - start)
 
