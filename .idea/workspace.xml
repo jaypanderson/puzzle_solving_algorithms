@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5638c7b3-0fba-4968-89dd-b58709f8cd06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/least common multiple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_puzzle/greatest common devisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/greatest common devisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/least common multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/least common multiple.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.greatest common devisor.executor": "Run",
+    "Python.least common multiple.executor": "Run",
     "Python.test.executor": "Debug",
     "Python.transpose_functions_3.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",

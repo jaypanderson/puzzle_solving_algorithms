@@ -17,7 +17,23 @@ def lmc_brute_force(a:int, b:int) -> int:
             return d
 
 
+def lmc(a: int, b: int) -> int:
+    """
+    this functions relies on the fact that lmc(a,b) * gcd(a, b) == a * b or if we transform it,
+    lmc(a, b) = (a*b) / gcd(a, b). So we simply use out gcd function to figure this out.
+    :param a:
+    :param b:
+    :return:
+    """
+    product = a * b
+    while a > 0 and b > 0:
+        if a >= b:
+            a %= b
+        else:
+            b %= a
+    return product // max(a, b)
+
 
 if __name__ == '__main__':
-    print(lmc_brute_force(24, 16))
+    print(lmc(24, 16))
     pass
