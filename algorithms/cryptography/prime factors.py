@@ -23,5 +23,5 @@ def factoring(m):
 
 
 if __name__ == '__main__':
-    for i in (7, 12, 60, 1001, 2 ** 32 + 1, 2 ** 64 + 1):
+    for i in (101, 737, 1260, 7, 12, 60, 1001, 2 ** 32 + 1, 2 ** 64 + 1):
         print(f'Factoring of {i}: {factoring(i)}')

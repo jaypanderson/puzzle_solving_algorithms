@@ -97,5 +97,5 @@ if __name__ == '__main__':
 
     # print(gcd_recursive(48, 64))
 
-    print(extended_gcd(9, 6))
+    print(extended_gcd(1980, 1848))
 
