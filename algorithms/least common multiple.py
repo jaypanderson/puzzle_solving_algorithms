@@ -26,6 +26,7 @@ def lmc(a: int, b: int) -> int:
     :return:
     """
     product = a * b
+    # this portion is essentially Euclid's algorithm to find the gcd (greatest common divider)
     while a > 0 and b > 0:
         if a >= b:
             a %= b
