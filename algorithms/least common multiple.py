@@ -35,5 +35,5 @@ def lmc(a: int, b: int) -> int:
 
 
 if __name__ == '__main__':
-    print(lmc(24, 16))
+    print(lmc(10, 15))
     pass

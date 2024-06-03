@@ -61,6 +61,8 @@ def extended_gcd(a, b):
     called the certificate that are mutipliers that can be used to mutiple the original numbers that will give the gcd.
     ex a = 391, b = 299  certiciate -> x = -3, y = 4
     if we calculate the gcd then we get 23 which is equal to 391(-3) + 299(4) = -1173 + 1196 = 23
+    currently there is an essertion error when b is bigger than a this might simply be an assertion error and may not
+    actually affect the code. when using this code for an assignment sinply removing the assertions made it correct.
     :param a:
     :param b:
     :return:
@@ -86,6 +88,7 @@ if __name__ == '__main__':
 # (790933790548, 7) this is extremely slow with the first two functions.
 # (79093379054, 1849639579327)
 # (74849302198574637289038758439302193847583958734903028494857483910394758271849503298765212098754125698, 5469578565231556458595458652545856957542568547932654789652312524569899889653624759658745895854785)
+# 391, 299
 
     # start = time.time()
     # for i in range(1):
@@ -94,5 +97,5 @@ if __name__ == '__main__':
 
     # print(gcd_recursive(48, 64))
 
-    print(extended_gcd(391, 299))
+    print(extended_gcd(9, 6))
 
