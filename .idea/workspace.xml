@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5638c7b3-0fba-4968-89dd-b58709f8cd06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/modulo division.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/modulo division.py" afterDir="false" />
-    </list>
+    <list default="true" id="5638c7b3-0fba-4968-89dd-b58709f8cd06" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ryan\PycharmProjects\puzzle_solving_algorithms\algorithms\greatest common devisor.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ryan\PycharmProjects\puzzle_solving_algorithms\algorithms\cryptography\greatest common devisor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
