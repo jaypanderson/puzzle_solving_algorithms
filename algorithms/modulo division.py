@@ -27,3 +27,8 @@ def divide(a, b, n):
     return (b * (x % n)) % n
 
     # return the number x s.t. x = b / a (mod n) and 0 <= x <= n-1.
+
+if __name__ == '__main__':
+    # This would calculate x = 7/2 mod 9 or rather 2x mod 9 = 7 and we are solving for x.
+
+    print(divide(7, 2, 9))
