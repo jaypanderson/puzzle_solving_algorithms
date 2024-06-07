@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5638c7b3-0fba-4968-89dd-b58709f8cd06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/cryptography/chinese remainder theorem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/cryptography/fast modular exponentiation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.chinese remainder theorem.executor": "Run",
+    "Python.fast modular exponentiation.executor": "Run",
     "Python.greatest common devisor.executor": "Run",
     "Python.least common multiple.executor": "Run",
     "Python.modulo division.executor": "Run",
     "Python.prime factors.executor": "Run",
+    "Python.scratch_8.executor": "Run",
     "Python.test.executor": "Debug",
     "Python.transpose_functions_3.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
